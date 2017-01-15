@@ -2651,3 +2651,7 @@ footer .copyright span:last-child::after {
 	margin-top: 45%;
 	margin-left: 5%;
 }
+
+.amoeba-green {
+	color: #46B7AE !important;
+}
