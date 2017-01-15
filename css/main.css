@@ -970,7 +970,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .skill-bars li .progress span {
 	position: absolute;
-	right: 0;
+	/*right: 0;*/
+	left: 100%;
 	top: -3.6rem;
 	display: block;
 	font-family: "poppins-regular", sans-serif;
@@ -982,14 +983,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	border-radius: 3px;
 }
 .skill-bars li .progress span::after {
-	position: absolute;
-	left: 50%;
-	bottom: -5px;
-	margin-left: -5px;
-	border-right: 5px solid transparent;
-	border-left: 5px solid transparent;
-	border-top: 5px solid #313131;
-	content: "";
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*bottom: -5px;*/
+	/*margin-left: -5px;*/
+	/*border-right: 5px solid transparent;*/
+	/*border-left: 5px solid transparent;*/
+	/*border-top: 5px solid #313131;*/
+	/*content: "";*/
 }
 
 .skill-bars li .percent5   { width: 5%; }
@@ -2610,7 +2611,7 @@ footer .copyright span:last-child::after {
 .donut-percent-container {
 	display: flex;
 	flex-direction: column;
-	margin-left: 50%;
+	margin-left: 25%;
 }
 
 .donut-percent-value {
