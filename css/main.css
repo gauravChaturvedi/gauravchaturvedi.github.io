@@ -999,6 +999,31 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	/*content: "";*/
 }
 
+.skill-bars li .progress-skill span {
+	position: absolute;
+	/*right: 0;*/
+	left: 100%;
+	top: -3.6rem;
+	display: block;
+	font-family: "poppins-regular", sans-serif;
+	color: white;
+	font-size: 1.1rem;
+	line-height: 1;
+	background: #313131;
+	padding: .6rem .6rem;
+	border-radius: 3px;
+}
+.skill-bars li .progress-skill span::after {
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*bottom: -5px;*/
+	/*margin-left: -5px;*/
+	/*border-right: 5px solid transparent;*/
+	/*border-left: 5px solid transparent;*/
+	/*border-top: 5px solid #313131;*/
+	/*content: "";*/
+}
+
 .skill-bars li .percent5   { width: 5%; }
 .skill-bars li .percent10  { width: 10%; }
 .skill-bars li .percent15  { width: 15%; }
@@ -1103,7 +1128,7 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	/*background: #000000;*/
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1637,6 +1662,8 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
+	position: absolute;
+	left: 43%;
 	color: #FF0077;
 }
 
