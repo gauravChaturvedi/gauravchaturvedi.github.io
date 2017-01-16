@@ -2655,3 +2655,7 @@ footer .copyright span:last-child::after {
 .amoeba-green {
 	color: #46B7AE !important;
 }
+
+.amcharts-chart-div a {
+	display:none !important;
+}
